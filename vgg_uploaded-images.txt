@@ -1,0 +1,68 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = vgg 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 3 key-value pairs.
+Below are 3 of them:
+ 1 key:                    Wasp_01.jpg  label:                       wasp
+ 2 key:                     Dog_02.jpg  label:                        dog
+ 3 key:                     Dog_01.jpg  label:                        dog
+
+     MATCH:
+
+ NOT A MATCH:
+
+                   Wasp_01.jpg: 
+Real:                       wasp   Classifier: long-horned beetle, longicorn, longicorn beetle
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:                  gordon setter
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:                  gordon setter
+
+# Total Images 3 # Matches: 0 # NOT Matches: 3
+
+     MATCH:
+
+ NOT A MATCH:
+
+                   Wasp_01.jpg: 
+Real:                       wasp   Classifier: long-horned beetle, longicorn, longicorn beetle  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:                  gordon setter  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:                  gordon setter  
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 3 # Matches: 0 # NOT Matches: 3
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  3  N Dog Images:  2  N NotDog Images:  1 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  3  N Dog Images:  2  N NotDog Images:  1 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+
+*** Results Summary for CNN Model Architecture VGG ***
+N Images            :   3
+N Dog Images        :   2
+N Not-Dog Images    :   1
+ 
+Key: pct_match Value:0.0
+Key: pct_correct_dogs Value:100.0
+Key: pct_correct_breed Value:0.0
+Key: pct_correct_notdogs Value:100.0
+
+INCORRECT Dog Breed Assignment:
+Real:                        dog   Classifier:                  gordon setter
+Real:                        dog   Classifier:                  gordon setter
+
+** Total Elapsed Runtime: 0:0:7
