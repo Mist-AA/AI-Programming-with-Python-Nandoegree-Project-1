@@ -7,4 +7,4 @@ The performance of various CNN model architectures is compared and the time reso
 * VGG
 
 ### Source
-This is the first project in the AI programming with python nanodegree course on Udacity. The objective is to - Use a Pre-trained Image Classifier to Identify Dog Breeds 
+This is the first project in the AI programming with python nanodegree course on Udacity as part of the initial phase of the AWS AI & ML Scholarship Program in 2022.
