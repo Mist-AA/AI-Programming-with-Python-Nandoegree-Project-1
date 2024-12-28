@@ -5,6 +5,3 @@ The performance of various CNN model architectures is compared and the time reso
 * ResNet
 * AlexNet
 * VGG
-
-### Source
-This is the first project in the AI programming with python nanodegree course on Udacity as part of the initial phase of the AWS AI & ML Scholarship Program in 2022.
